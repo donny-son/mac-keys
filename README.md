@@ -1,6 +1,6 @@
 # Mac Keybindings
 
-Install Karabiner Elements and install Amethyst.
+Install Karabiner Elements and install Amethyst(`brew install --cask amethyst`).
 
 ```bash
 git clone git@github.com:donny-son/mac-keys.git ~/.config/karabiner
@@ -23,3 +23,4 @@ git clone git@github.com:donny-son/mac-keys.git ~/.config/karabiner
         - `Swap focused window counter clockwise`: Option + Shift + J
         - `Swap focused window clockwise`: Option + Shift + K
         - `Swap focused window with main window`: Option + Shift + Enter
+    5. Mouse > Check `Mouse follows focused windows`
