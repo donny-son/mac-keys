@@ -1013,10 +1013,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "spacebar",
-                                        "modifiers": [
-                                            "left_control"
-                                        ]
+                                        "key_code": "fn"
                                     }
                                 ],
                                 "type": "basic"
@@ -1032,10 +1029,7 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "spacebar",
-                                        "modifiers": [
-                                            "left_control"
-                                        ]
+                                        "key_code": "fn"
                                     }
                                 ],
                                 "type": "basic"
