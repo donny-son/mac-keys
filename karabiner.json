@@ -758,7 +758,7 @@
                                 },
                                 "to": [
                                     {
-                                        "shell_command": "open -a 'Warp'"
+                                        "shell_command": "open -a 'WezTerm.app'"
                                     }
                                 ],
                                 "type": "basic"
