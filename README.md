@@ -24,3 +24,4 @@ git clone git@github.com:donny-son/mac-keys.git ~/.config/karabiner
         - `Swap focused window clockwise`: Option + Shift + K
         - `Swap focused window with main window`: Option + Shift + Enter
     5. Mouse > Check `Mouse follows focused windows`
+
