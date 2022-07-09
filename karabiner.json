@@ -171,7 +171,7 @@
                                     {
                                         "key_code": "down_arrow",
                                         "modifiers": [
-                                            "left_shift"
+                                            "left_control"
                                         ]
                                     }
                                 ],
@@ -194,7 +194,7 @@
                                     {
                                         "key_code": "down_arrow",
                                         "modifiers": [
-                                            "left_control"
+                                            "left_shift"
                                         ]
                                     }
                                 ],
@@ -259,7 +259,7 @@
                                     {
                                         "key_code": "up_arrow",
                                         "modifiers": [
-                                            "left_shift"
+                                            "left_control"
                                         ]
                                     }
                                 ],
@@ -282,7 +282,7 @@
                                     {
                                         "key_code": "up_arrow",
                                         "modifiers": [
-                                            "left_control"
+                                            "left_shift"
                                         ]
                                     }
                                 ],
