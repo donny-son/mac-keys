@@ -2,7 +2,7 @@
   "title": "Convert to en on ESC",
   "rules": [
     {
-      "description":"Convert to en on ESC",
+      "description": "Convert to en on ESC",
       "manipulators": [
         {
           "type": "basic",
@@ -26,12 +26,11 @@
               }
             }
           ],
-          "conditions": [ 
-            { 
+          "conditions": [
+            {
               "type": "frontmost_application_if",
               "bundle_identifiers": [
                 "^com\\.googlecode\\.iterm2$",
-                "^co\\.zeit\\.hyper$",
                 "^com\\.microsoft\\.VSCode$",
                 "^md\\.obsidian$"
               ]
@@ -60,8 +59,8 @@
               }
             }
           ],
-          "conditions": [ 
-            { 
+          "conditions": [
+            {
               "type": "frontmost_application_if",
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
