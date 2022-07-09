@@ -89,13 +89,6 @@
                                         "key_code": "left_shift"
                                     }
                                 ],
-                                "to_after_key_up": [
-                                    {
-                                        "select_input_source": {
-                                            "language": "en"
-                                        }
-                                    }
-                                ],
                                 "to_if_alone": [
                                     {
                                         "key_code": "escape"
