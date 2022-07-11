@@ -41,17 +41,13 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "right_command",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
+                                    "key_code": "right_command"
                                 },
-                                "to_after_key_up": [
+                                "to": [
                                     {
                                         "select_input_source": {
-                                            "language": "en"
+                                            "language": "^en$",
+                                            "input_source_id": "^com\\.apple\\.keylayout\\.ABC"
                                         }
                                     }
                                 ],
@@ -59,17 +55,14 @@
                             },
                             {
                                 "from": {
-                                    "key_code": "right_option",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
+                                    "key_code": "right_option"
                                 },
-                                "to_after_key_up": [
+                                "to": [
                                     {
                                         "select_input_source": {
-                                            "language": "ko"
+                                            "input_mode_id": "^com\\.apple\\.inputmethod\\.Korean\\.2SetKorean",
+                                            "input_source_id": "^com\\.apple\\.inputmethod\\.Korean\\.2SetKorean",
+                                            "language": "^ko$"
                                         }
                                     }
                                 ],
