@@ -1,7 +1,7 @@
 {
     "global": {
         "check_for_updates_on_startup": true,
-        "show_in_menu_bar": false,
+        "show_in_menu_bar": true,
         "show_profile_name_in_menu_bar": false
     },
     "profiles": [
@@ -46,8 +46,8 @@
                                 "to": [
                                     {
                                         "select_input_source": {
-                                            "language": "^en$",
-                                            "input_source_id": "^com\\.apple\\.keylayout\\.ABC"
+                                            "input_source_id": "^com\\.apple\\.keylayout\\.ABC",
+                                            "language": "^en$"
                                         }
                                     }
                                 ],
@@ -903,7 +903,10 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "fn"
+                                        "key_code": "spacebar",
+                                        "modifiers": [
+                                            "left_control"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
@@ -919,7 +922,10 @@
                                 },
                                 "to": [
                                     {
-                                        "key_code": "fn"
+                                        "key_code": "spacebar",
+                                        "modifiers": [
+                                            "left_control"
+                                        ]
                                     }
                                 ],
                                 "type": "basic"
@@ -1413,16 +1419,6 @@
             },
             "selected": true,
             "simple_modifications": [
-                {
-                    "from": {
-                        "key_code": "right_shift"
-                    },
-                    "to": [
-                        {
-                            "key_code": "left_shift"
-                        }
-                    ]
-                },
                 {
                     "from": {
                         "key_code": "right_control"
